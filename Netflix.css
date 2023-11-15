@@ -1,0 +1,146 @@
+#Logo{
+	width:100px;
+	height:50px;
+}
+#left{
+	margin-left: 25px;
+}
+#Vistor{
+	 width:50px;
+}
+select{
+	background-color:transparent;
+	color:white;
+} 
+.banner-section{
+	background-image:url("https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/e9tyolbds0ift0ns8l4k");
+	height:100vh;
+	background-size:cover;
+}
+.button-lil{
+	border-radius:5px;
+	padding:15px;
+	border:3px solid black;
+	background-color:transparent;
+	font-weight:bold;
+	justify-content: center;
+	margin-left:50px;
+	margin-top:400px;
+	color:white;
+
+}
+#core{
+	margin-right:10px;
+	justify-content:center;
+}
+#core-1{
+	justify-content:center;
+	margin-right:10px;
+	color:white;
+	
+}
+button{
+	background-color:white;
+}
+.heading{
+	family-weight:bold;
+    color:white;
+	margin-left:45px;
+}
+.para{
+	color:white;
+	margin-left:45px;
+}
+.background{
+	background-color:black;
+	height:450vh;
+	background-size:cover;
+}
+.heading-4{
+	color:white;
+	family-weight:bold;
+	margin-left:25px;
+}
+#Animation{
+	transition:transform 0.2s ease-in-out;
+	border-radius:5px;
+}
+td:hover{
+	transform:scale(1.1);
+}
+td{
+	border-style:hidden;
+}
+#vni{
+	margin:10px;
+}
+.footer {       
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    margin:150px;
+    }
+
+.footer-menu-section {
+    flex: 1;
+    margin-right: 20px;
+    }
+
+.footer-menu-section-2,
+.footer-menu-section-3,
+.footer-menu-section-4 {
+    flex: 1;
+    }
+
+.footer-menu-section ul,
+.footer-menu-section-2 ul,
+.footer-menu-section-3 ul,
+.footer-menu-section-4 ul {
+    list-style: none;
+    padding: 0;
+    }
+
+.footer-menu-section .list,
+.footer-menu-section-2 .order,
+.footer-menu-section-3 .order,
+.footer-menu-section-4 .order {
+    margin-bottom: 10px;
+    }
+.footer .fa-copyright {
+    margin-right: 5px;
+    }
+.list{
+	margin:15px;
+}
+.order{
+	margin:15px;
+}
+.service{
+	background-color:transparent;
+	color:white;
+	border-color:white;
+	margin-left:15px;
+}
+#Social{
+	margin:15px;
+	margin-top:250px;
+}
+.Social {
+	position:relative;
+	left:190px;
+}
+a{
+	color:white;
+}
+
+	
+	
+	
+	
+	
+
+  
+

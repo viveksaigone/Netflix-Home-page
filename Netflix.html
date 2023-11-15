@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- bootstrap  -->
+	<!-- use bootstrap version as 4.5v only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.4/dist/css/uikit.min.css" />
+	<!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.4/dist/js/uikit-icons.min.js"></script>
+	 <!-- fontawesome UIkit  -->
+	<script src="https://kit.fontawesome.com/83ccd2ef5b.js" crossorigin="anonymous"></script>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+    <meta name="description" content="jntuh notes">
+    <meta name="keywords" content="data structure, computer 
+    organization artichecture, oop using c++">
+    <meta name="author" content="VIVEK SAI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link the html file with css-->
+    <link rel="stylesheet" href="Netflix.css" />
+	<!-- Name of title -->
+    <title>Netflix</title>
+	<!-- Icon to the page -->
+    <link rel="icon" type="image/x-icon" href="./Images/Logo.png">
+	<!-- Google font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+			
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+            text-align:left;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #cccccc;
+        }
+    .left-margin {
+        margin-right:300px; /* Adjust the value as needed */
+		padding:5px;
+    }
+
+    </style>
+  </head>
+  <body>
+  <div class="Nav-bar">
+        <nav>
+        <a href="#"><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/pg1q4kv7td1fmef4swmx" id="Logo"></a>
+        <a href="#">Home</a>
+        <a href="#">Tv Shows</a>
+        <a href="#">Movies</a>
+        <a href="#" class="left-margin">News&Popular</a>
+        <i class="fa-sharp fa-solid fa-magnifying-glass " style="color: #e1e1e1;" id="vni"></i>
+        <a href="#"id="vni">CHILDERN</a>
+        <i class="fa-solid fa-gift" style="color: #fafafa;"style="padding:5px;" id="vni"></i>
+        <i class="fa-solid fa-bell" style="color: #e1e1e1;"style="margin-left:3px;" id="vni"></i>
+        <img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/codpctrfnnlwe1jjp4ol" id="Vistor" style="margin-left:15px;"id="vni">
+</div>
+</div>
+<div class="banner-section">
+<button class="button-lil"><i class="fa-solid fa-play" id="core"></i>Play</button>
+<button class="button-lil"><i class="fa-solid fa-plus" style="color:white;" id="core-1"></i>My List</button>
+<h4 class="heading">Watch Season 3 Now</h4>
+<p class="para">strange sightings. Government secrets. Fearless kids.<br> And a drak fource that turns a small town upside down.</p>
+</div>
+<div class="background">
+<div class="mycart">
+<h4 class="heading-4">My List</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/xm1uscbjcdqxd1n9bn3o"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/mvqdg8o8w2wzrrsralmh"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/w7ys3ehxt3uozedrxjag"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/r28zgqmeuqmngpht4mrs"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/ta2zamqd8hor0wub2bfh"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/jleqj5gii5japqirvmap"id="Animation"></td>
+
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Trending Now</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/y2hubt3lqsjbwgia8tqt"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/mdjxumaysphfyd9evs91"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/rm4mkdhwdkaeh8k2saco"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/xpv10ao12bsen3khiltg"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/s9evstmrtwuuy4ka8hnw"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/yr6rgjayjc8mrcj7rqgr"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Hollywood Films</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/gqo90ddoq1mez4ln5x6f"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/dhkmxeijlvgnytbulqnv"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/hs3qsssllepdewrfpkfw"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/iea6cldqp67vizhd9qfn"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/r44jeywjnldveclupebx"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/j5uikrwbdext3docz59l"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Action</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/yvxvb5chkqvbmap7kljc"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/afsoyq6zzshgjmfshdvg"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/roz6pmknz7dt2mtdaivr"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/lhltuj0gkzqr3awpr3jx"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/mbfwnp36ye2fsjnxdaaw"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/zrp4noh2klfh4mpouawu"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Indian Comedies</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/qcgzbexzwtfpehhmrewe"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/pi85ue2x2oiwe2crdcyf"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/ntly3rd3w7uczzsde6rk"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/pszpha2kyflofvezujuh"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/r7bgypbngiokwahuydnr"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/mtqackjzs7rwybkfogif"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Children & Family Films</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/i5t5dwsasy6ps7kbtd9j"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/pgerurbh5rt0g4qhbet4"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/stxdur6oodakrj158wrx"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/tixp66w6bhycsfo58sld"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/nlgxv5psaqsq2r0mamn8"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/gjekyvrg6aptrh4t8yu1"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Horror Films</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/flq0xwe2l5xipm1fmejj"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/lhbhcz52okswsnrtsvcz"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/mtvtsrlaco8ualgyvjth"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/wxkpzgbn7yvbyzok22bl"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/qg59pywrlz9oigbx72kk"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/icau9zx94wgisv1yg8lh"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <h4 class="heading-4" style="margin-right:10px;">Telugu-Language Films</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/ggcr7n7tgsj9xkkqzacw"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/gbxrnowjwzznldwjiod6"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/yn5fjs52rrclq2rfesrs"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/vxbwgxqokz3pedtjiul1"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/agi6bcqx1ubnsbsbx9xg"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/dn1xl1kvurchgt7trvrt"id="Animation"></td>
+ 
+ </tr>
+ </table>
+  <h4 class="heading-4" style="margin-right:10px;">New Releases</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/xweixb5nn7yu098zz4wj"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/iu2ypf3gopfjugylt3pa"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/yj3cuwmi6r3ce3fgaubl"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/ze1pzhngn9npiw9e2u0w"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/yq8nm56teiyup9tvzhj9"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/n7qq9xttinbolpxqqkit"id="Animation"></td>
+ 
+ </tr>
+ </table>
+   <h4 class="heading-4" style="margin-right:10px;">Violent Films</h4>
+<table border="3">
+<tr>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/tyanqsoexfnqnxqn5bqk"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/cc2uym2gy1c5wvynb9ew"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/zvwcvapajsp4vgoneejl"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/ahszc0oikcgg24cn91qa"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/qpznewn0vrxssautjmqp"id="Animation"></td>
+ <td><img src="https://res.cloudinary.com/dcodxtacf/image/upload/f_auto,q_auto/v1/Netflix/o8bm1l89stminzh1v2uz"id="Animation"></td>
+ 
+ </tr>
+ </table>
+ <div class="footer">
+        <div class="Social">
+            <table border="0">
+                <tr>
+                    <th><i class="fab fa-facebook-f" style="color: #e1e1e1;"id="Social"></i></th>
+                    <th><i class="fab fa-instagram" style="color: #e1e1e1;"id="Social"></i></th>
+                    <th><i class="fab fa-twitter" style="color: #e1e1e1;"id="Social"></i></th>
+                    <th><i class="fab fa-youtube" style="color: #e1e1e1;"id="Social"></i></th>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-menu-section">
+            <ul class="no-bullets">
+               <a href="#"><li class="list">Audio Description</li></a>
+                <a href="#"><li class="list">Investor Relations</li></a>
+                <a href="#"><li class="list">Legal Notices</li></a>
+                <a href="#"><button class="service">Service code</button></a>
+                <a href="#"><li class="list"><i class="far fa-copyright" style="color: #ffffff;"></i>1997-2023 Netflix, Inc</li></a>
+            </ul>
+        </div>
+        <div class="footer-menu-section-2">
+            <ul class="no-bullets">
+                <a href="#"><li class="order">Help Centre</li></a>
+                <a href="#"><li class="order">Jobs</li></a>
+                <a href="#"><li class="order">Cookie Preferences</li></a>
+            </ul>
+        </div>
+        <div class="footer-menu-section-3">
+            <ul class="no-bullets">
+                <a href="#"><li class="order">Gift Cards</li></a>
+                <a href="#"><li class="order">Terms of use</li></a>
+                <a href="#"><li class="order">Corporate Information</li></a>
+            </ul>
+        </div>
+        <div class="footer-menu-section-4">
+            <ul class="no-bullets">
+                <a href="#"><li class="order">Media Centre</li></a>
+                <a href="#"><li class="order">Privacy</li></a>
+                <a href="#"><li class="order">Contact Us</li></a>
+            </ul>
+        </div>
+    </div>
+
+  
+ </div>
+</div>
+  
+    
+     
+    <!-- ID Attribute CCBP UIKIT(Don't change this code it is Default) -->
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+	 <!-- ID Attribute CCBP UIKIT -->
+	 
+  </body>
+</html>
+
